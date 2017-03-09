@@ -1,0 +1,232 @@
+<style>
+
+{ height: 100%;}
+
+* {
+    box-sizing: border-box:    
+}
+
+
+
+.header, .footer {
+    background-color: deeppink;
+    color: white;
+    padding: 15px;
+}
+
+.column {
+    float: left;
+    padding: 15px;
+}
+
+
+img {
+	border-radius: 14px;
+
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.menu {
+    width: auto;
+}
+
+.content {
+    width: 65%;
+}
+
+/* unvisited links   -- eliminated the margin to keep it aligned with page content*/
+/*displays the background color spacing and position between menu options */
+.menu ul {
+    list-style-type: none;
+    
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+    position: left;
+    top: 0;
+    width: 100%;
+}
+
+/* determins if menu is left, center or right */
+.menu li {
+    float: left;
+}
+
+
+li a {
+    display: table;
+    color: white;
+    padding: 20px;
+    text-decoration: circle;
+}
+
+
+/* selected link */
+a:active {
+    background-color: blue;
+}
+
+.main {
+    padding: 16px;
+    margin-top: 30px;
+    height: 1500px; /* Used in this example to enable scrolling */
+}
+
+
+.menu li:hover {
+    background-color: deeppink;
+}
+
+
+
+/* represents positions */
+
+
+
+body {
+    
+    border: 15px solid purple;
+    background-color: black;
+    color: white;
+    font: normal 175% 'century gothic, sans-serif;
+    margin: 5px;
+    padding:  10px;}
+}
+
+p {
+	display: inline;
+}
+
+h1, 
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: white;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+
+h1, h2, 
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: deeppink;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0}
+
+h3, h4, h5, h6
+{ font: normal 175% 'century gothic', arial, sans-serif;
+  color: deeppink;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+
+h5, h6 { font: normal 125% 'century gothic', arial, sans-serif;
+  color: deeppink;
+  margin: 0 0 15px 0;
+  padding: 15px 0 5px 0;}
+
+
+
+p.dashed {outline-style: dashed;
+	
+}
+  
+
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid deeppink;
+    border-radius: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  
+}
+
+input[type=submit] {
+    background-color: deeppink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: purple;
+}
+
+.container { color: deeppink;
+    border-radius: 5px;
+    background-color: black;
+    padding: 2px;
+    margin: 20%;
+}
+
+
+.sidebar
+{ float: right;
+  width: 210px;
+  padding: 0 15px 20px 15px;}
+
+.sidebar ul
+{ width: 198px; 
+  padding: 4px 0 0 0; 
+  margin: 4px 0 30px 0;}
+
+.sidebar li
+{ list-style: none; 
+  padding: 0 0 7px 0; }
+
+.sidebar li a, .sidebar li a:hover
+{ padding: 0 0 0 40px;
+  display: block;
+  background: transparent url(link.png) no-repeat left center;} 
+
+.sidebar li a.selected
+{ color: #7E2451;
+  text-decoration: none;} 
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-github{
+	background: orange;
+    color: green;
+}
+
+
+
+
+</style>

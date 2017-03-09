@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="Tamika's McKenzie's Website" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="header">
+  <center><h1>TAMIKA MCKENZIE</h2>
+   Jr. Software Developer</center>
+</div>
+
+<br/>
+<br/>
+<div class="clearfix">
+  <div class="menu">
+   <center> <ul>
+      <li><a href="index.html">| HOME |</a></li>
+      <li><a href="about.html">| ABOUT ME |</a></li>
+      <li><a href="skills.html">| SKILLS |</a></li>
+      <li><a href="experiences.html">| EXPERIENCES |</a></li>
+      <li><a href="projects.html">| PROJECTS |</a></li>
+      <li><a href="contact.html">| CONTACT ME |</a></li>
+    </ul></center>
+  </div>
+</div>
+	<div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<u><h3>Latest News</h3></u>
+        <h2>New Website Launched</h2>
+        <h5>March 4th, 2017</h5>
+        <p>This is the first webpage I have created to display what I have learned in HTML, CSS & JAVASCRIPT . Take a look around and please feel free to leave me feedback and let me know what you think.<br /><a href="https://www.linkedin.com/in/tamika-mckenzie/" target="_blank">LinkedIn</a></p>
+        <center><h3>Useful Links</h3></center>
+        <ul>
+          <li><a href="https://www.techtoronto.org/" target="_blank">TECH TORONTO</a></li>
+          <li><a href="https://www.thestar.com/life/technology.html" target="_blank">THE STAR NEWSPAPER</a></li>
+          <li><a href="http://torontolife.com/city/business/titans-of-tech-toronto-waterloo-innovators/" target="_blank">TECHNOLOGY ENTREPRENEURS</a></li>
+          <li><a href="http://techspotoronto.ca/" target="_blank">TECHSPO TORONTO EXHITBITION</a></li>
+        </ul>
+        <h3>Search</h3>
+        <form method="post" url action="https://www.google.com" id="https://www.google.ca">
+          <p>
+            <input class="search" type="text" name="search_field" value="" />
+          </p>
+        </form>
+<br/>
+	<br/>
+      </div>
+
+
+<div id="content">
+        <!-- insert the page content here -->
+        <center><b><u><h1>Loopy Planet</h1></b></u>
+        <span class="center">
+	<a href="#" target="_blank">
+	<center><img id="mypic" height:"300" width="320" src="http://media-cache-ak0.pinimg.com/736x/04/5c/dd/045cdd39a46e66106f7a4edfb0c501ba.jpg" alt=" example weight" /></a></span>
+	</center>
+
+	<!-- allows a functional javascript to run on html -->
+	<center>
+
+	<p id="demo">Enter Weight on Earth.</p>
+
+	<button type="button" onclick="myFunction()">Calculates</button>
+
+
+	<script>
+	function myFunction() {
+    	document.getElementById("demo").innerHTML = "Select a Planet";
+	}
+	</script> 
+
+	 <p>
+         My first Project had to be a <b><u>Menu-Driven</u></b> using C# that determines the weight a person  
+	 on another planet. This program encorporates a menu of the planets in out solar system (except Earth). 
+	 A user can then choose one of the planets from the menu to enter their weight on Earth. I was able to  
+	 format the weight to one decimal place by using such code: </p>
+	
+        <p>Console.WriteLine("Enter weight on earth"); <!-- Get user input of weight -->
+        Weight = Convert.ToDouble(Console.ReadLine()); <!-- reads users input -->
+        Console.WriteLine();  <!-- output weight of user --> </p>
+
+	<p>Loopy Planet for its rightful name has an embedded Loop which is a Do- While statement/condition  
+	has a switch statement that allows users to continously input a new weight and also select a new planet: </p></center>
+
+	<p><h3>Switch statements to execute different Menu_Planets</h3></p>
+
+        <p>switch (Menu_Planets)
+        {
+           case 1:     <!-- Jupiter -->
+
+	   <!-- Multiplies weight by planter weight -->
+            Console.WriteLine("Your weight of " + weight + " pounds on Earth would be " + 2.64 * weight + " pounds on Jupiter\n"); 
+            break; </p>
+	
+	 <p>Ending in case 8. There has been a default code added to run in the program that informs a user a invalid
+	 input has occured and must only choose the following 1-8 choices: </p>
+
+	 <p>default:
+            Console.WriteLine("You entered an invalid number. Choose from 1-8 only.\n");
+            Console.WriteLine("Enter a choice from 1-9: ");
+            break; }</p>
+
+	 <p>Unless they would like to now exit the program this is where the while statement takes affect which is an option 
+	 in the switch statement as case 9: and in switch represents the out put of:
+	
+	   case 9:
+           Console.WriteLine("Have a Nice Day. GoodBye\n");
+	</p></center>
+
+<div class="footer">
+    <center>&copy; TAMIKA MCKENZIE | JR. SOFTWARE DEVELOPER. | C# | CSS3 | JAVA | JAVASCRIPT | HTML5 | ASP.NET</a>
+    </center>
+</div>
+
+</body>
+</html>
